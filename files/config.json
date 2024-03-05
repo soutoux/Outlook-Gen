@@ -1,0 +1,13 @@
+{
+    "headless": false,
+    "chromeExecutablePath": "Check it - chrome://version",
+    "userDataDir": "Check it - chrome://version",
+    "windowWidth": 1920,
+    "windowHeight": 1080,
+    "timeout": 3600000, 
+    "timezone": "America/Sao_Paulo",
+    "useProxy": false,
+    "proxies": [
+        "http://PROXY_IP:PROXY_PORT"
+    ]
+}

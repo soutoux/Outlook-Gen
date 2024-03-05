@@ -1,0 +1,27 @@
+Outlook Account Generator
+This is a Node.js script that automates the registration of Outlook accounts using Puppeteer. It generates fictitious user information using the Faker library and creates accounts automatically on the Outlook website.
+
+Prerequisites
+Make sure you have Node.js installed on your system.
+
+Installation
+Clone this repository to your local environment.
+
+In the project directory, run the following command to install the necessary dependencies:
+
+npm install puppeteer puppeteer-extra puppeteer-extra-plugin-stealth faker
+
+Ensure you have Google Chrome installed and update the executable path in the code if necessary.
+
+Usage
+After installing the dependencies, execute the script using the following command:
+
+node generator.js
+
+The script will open a Chrome window and start automating the account registration on Outlook.
+
+The account details (username and password) will be displayed in the console and also logged in the accounts.json file.
+
+Notes
+Make sure to be aware of the Outlook website policies when automating account registrations. Misuse may result in account blocking or other measures.
+This script is developed for educational and demonstration purposes only.
